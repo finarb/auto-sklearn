@@ -3,7 +3,6 @@ import numpy as np
 from sklearn.model_selection import StratifiedShuffleSplit, StratifiedKFold
 from sklearn.model_selection._split import _validate_shuffle_split
 from sklearn.utils import indexable, check_random_state
-from sklearn.utils import _approximate_mode
 from sklearn.utils.validation import _num_samples, column_or_1d
 from sklearn.utils.validation import check_array
 from sklearn.utils.multiclass import type_of_target
